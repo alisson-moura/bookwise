@@ -1,0 +1,41 @@
+:root {
+  --green100: #50b2c0;
+  --green200: #255d6a;
+  --green300: #0a313c;
+  --purple100: #8381d9;
+  --purple200: #2a2879;
+  --gray100: #f8f9fc;
+  --gray200: #e6e8f2;
+  --gray300: #d1d6e4;
+  --gray400: #8d95af;
+  --gray500: #303f73;
+  --gray600: #252d4a;
+  --gray700: #181c2a;
+  --gray800: #0e1116;
+  --horizontal-gradient: linear-gradient(90deg, rgba(127, 209, 204, 1) 0%, rgba(150, 148, 245, 1) 100%);
+  --vertical-gradient: linear-gradient(180deg, rgba(127, 209, 204, 1) 0%, rgba(150, 148, 245, 1) 100%);
+  --fz-sm: 14px;
+  --fz-md: 16px;
+  --fz-lg: 18px;
+  --fz-lgx: 20px;
+  --fz-lgxx: 24px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
