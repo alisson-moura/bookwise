@@ -1,0 +1,31 @@
+.container {
+  color: var(--gray400);
+  display: inline-flex;
+  padding: 8px 0;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  line-height: 160%;
+  font-weight: normal;
+}
+
+.container:hover {
+  color: var(--gray100);
+  cursor: pointer;
+}
+
+.rect {
+  background: transparent;
+  width: 4px;
+  height: 24px;
+  border-radius: 999px;
+}
+
+.rectIsSelected {
+  background: var(--vertical-gradient);
+}
+
+.isSelected {
+  color: var(--gray100);
+  font-weight: bold;
+}

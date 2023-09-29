@@ -1,0 +1,21 @@
+.container {
+  padding: 4px 12px;
+  font-size: var(--fz-md);
+  line-height: 160%;
+  color: var(--purple100);
+  border: 1px solid var(--purple100);
+  border-radius: 999px;
+}
+
+.container:hover {
+  cursor: pointer;
+  color: var(--gray100);
+  background: var(--purple200);
+  border: 1px solid var(--gray100);
+}
+
+.selected {
+  color: var(--gray100);
+  background: var(--purple200);
+  border: 1px solid transparent;
+}

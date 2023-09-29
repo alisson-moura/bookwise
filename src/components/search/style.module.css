@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  padding: 14px 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border: 1px solid var(--gray500);
+  color: var(--gray500);;
+  background: var(--gray800);
+  border-radius: 4px;
+}
+
+.active {
+  border: 1px solid var(--green200);
+}
+
+.input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--gray100)
+}

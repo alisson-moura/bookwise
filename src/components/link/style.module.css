@@ -1,0 +1,28 @@
+.container {
+  display: inline-flex;
+  padding: 4px 12px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  gap: 8px;
+}
+
+.sm {
+  font-size: var(--fz-sm);
+}
+.md {
+  font-size: var(--fz-md);
+}
+
+.container:hover {
+  background: var(--gray600);
+  cursor: pointer;
+}
+
+.purple {
+  color: var(--purple100)
+}
+
+.white {
+  color: var(--gray200);
+}
